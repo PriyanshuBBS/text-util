@@ -1,0 +1,83 @@
+State : The contents of items
+Props : by sending props you can state 
+
+App.js is linked to index.js
+
+and index.html in public is most important make no changes
+
+npm start will start the react app
+and by making changes in app.js you can edit the text 
+
+All the components are to be stored in /src
+
+L3 Js Refresh: 
+ use strict : allows many mistake to not occur in Js
+ callbacks: are the call to execute the code
+ setTimer and clearTimer : used to modify the time of execution of call backs
+
+L4:
+index.js : where root is present put app in that
+how app.js is thats how website will look
+
+react has two components - function based and class based
+function base comp is new treand
+
+jsx allows to add html in app.js/js files
+that html in js is called jsx and it is 95% html
+className is used as class is reserved in Js
+
+A. if something is needed to add at before div class = app
+them enclose in jsx fragment <> and </> 
+
+app.css is for css
+
+img inclusion have extra jsx exclusion tag ("/")
+
+l5:
+ node modules is given to any one 
+ and can be created by npm i command
+
+ Bootstrap
+add Bootstrap scripts bundle in index.html at the same posn as in the documentation of Bootstrap
+
+l6: 
+ modules and its import
+ Props: but in function and {props.title}
+ they are never changed in funtion that is react function
+
+ Prop Types: are used to restrict the data that can be stored in props
+
+ 
+// Props 
+Navbar.propTypes = {
+    // isRequired restrict to have some values coming
+    title: PropTypes.string.isRequired, 
+    aboutText: PropTypes.string.isRequired
+}; 
+
+// if nothing is coming from App.js they will get
+Navbar.defaultProps = {
+    title: 'Set title here',
+    aboutText: 'About text here'
+};
+
+L7:
+    text area
+    app.js : putting in container class and my-3 put 3 margin in y-axis
+    
+    Hooks: it allows to you the class based features in function without using it in function
+
+Whatever inside {} is JavaScript
+
+
+State - 
+ const [mode, setMode] = useState('light');
+ setMode('dark');
+
+document. 
+
+const keyword is used to make function
+
+import link to the component when using react router
+class - className
+and a closing tag
